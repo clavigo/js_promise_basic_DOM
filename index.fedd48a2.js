@@ -1,0 +1,2 @@
+var e=new Promise(function(e,t){document.querySelector(".logo").addEventListener("click",function(){e()}),setTimeout(function(){t(Error())},3e3)}),t=document.querySelector("body"),n=document.createElement("div");n.classList.add("message"),e.then(function(){n.textContent="Promise was resolved!",t.appendChild(n)}).catch(function(){n.classList.add("error-message"),n.textContent="Promise was rejected!",t.appendChild(n)});
+//# sourceMappingURL=index.fedd48a2.js.map
